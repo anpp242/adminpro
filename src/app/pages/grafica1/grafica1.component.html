@@ -1,1 +1,37 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-donut
+            [title] = "saleGraph.title"
+            [dataIn] = "saleGraph.data"
+            [labelsIn] = "saleGraph.labels"
+            [chartTypeIn] = "saleGraph.type"
+        ></app-donut>
+    </div>
+    <div class="col-6">
+        <app-donut
+            [title] = "managersGraph.title"
+            [dataIn] = "managersGraph.data"
+            [labelsIn] = "managersGraph.labels"
+            [chartTypeIn] = "managersGraph.type"
+        ></app-donut>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <app-donut
+            [title] = "herosGraph.title"
+            [dataIn] = "herosGraph.data"
+            [labelsIn] = "herosGraph.labels"
+            [chartTypeIn] = "herosGraph.type"
+        ></app-donut>
+    </div>
+    <div class="col-6">
+        <app-donut
+            [title] = "reportGraph.title"
+            [dataIn] = "reportGraph.data"
+            [labelsIn] = "reportGraph.labels"
+            [chartTypeIn] = "reportGraph.type"
+        ></app-donut>
+    </div>
+</div>
